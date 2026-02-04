@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Watch</title>
+    <link rel="stylesheet" href="anni.css" />
+  </head>
+  <body>
+    <script>
+      function toggleMenu() {
+        const menu = document.getElementById("menu");
+
+        menu.classList.toggle("show");
+      }
+    </script>
+    <header>
+      <div class="logo">Smart Watch</div>
+      <nav>
+        <ul id="menu" class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#product">Product</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <h1>Smart Watch<br />for Smart Life</h1>
+        <p>
+          Experience the future with our stylish and powerful smart watch. Track
+          health, stay connected, and live smarter.
+        </p>
+        <div class="buttons">
+          <button class="btn-dark">Buy Product</button>
+          <button class="btn-light">Know More</button>
+        </div>
+      </div>
+
+      <div class="hero-img">
+        <img
+          src="smartwatch1.jpeg"
+          width="200px"
+          height="200px"
+          alt="smart watch"
+        />
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+      <h2>Awesome Features</h2>
+      <div class="feature-cards">
+        <div class="feature-card">
+          <h3>⌚ Stylish Design</h3>
+          <p>Modern and lightweight design for everyday wear</p>
+        </div>
+
+        <div class="feature-card">
+          <h3>❤️ Heart Rate Monitor</h3>
+          <p>
+            Track heart rate, calories burned, steps, and daily activity in real
+            time
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <h3>📱 Smart Notification</h3>
+          <p>
+            Receive call, message, and app notification directly on your wrist.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <h3>🔋 Long Battery Life</h3>
+          <p>Enjoy multiple days of usage with a single charge.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="product">
+      <h2>Our Smart Watches</h2>
+      <p class="product-subtitle">
+        Choose the perfect watch for your lifestyle
+      </p>
+
+      <div class="product-cards">
+        <div class="product-card">
+          <img
+            src="WhatsApp Image 3.jpeg"
+            width="200px"
+            height="200px"
+            alt="Classic Smart Watch"
+          />
+
+          <h3>Classic Smart Watch</h3>
+          <p>Heart rate, steps, notifications</p>
+          <span class="price">₹3,999</span>
+          <button>Buy Now</button>
+        </div>
+
+        <div class="product-card">
+          <img
+            src="WhatsApp Image 4.jpeg"
+            width="200px"
+            height="200px"
+            alt="Sport Smart Watch"
+          />
+          <h3>Sport Smart Watch</h3>
+          <p>Fitness tracking, waterproof</p>
+          <span class="price">₹4,999</span>
+          <button>Buy Now</button>
+        </div>
+
+        <div class="product-card">
+          <img
+            src="WhatsApp Image 5.jpeg"
+            width="200px"
+            height="200px"
+            alt="Premium Smart Watch"
+          />
+          <h3>Premium Smart Watch</h3>
+          <p>AMOLED display, GPS, calls</p>
+          <span class="price">₹6,999</span>
+          <button>Buy Now</button>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <h2>Get in Touch</h2>
+      <p class="contact-subtitle">
+        Have questions or want to know more about TimeX Smart Watch? Connect
+        with us anytime.
+      </p>
+
+      <div class="contact-container">
+        <!-- Contact Form -->
+        <form class="contact-form">
+          <input type="text" placeholder="Your Full Name" required />
+          <input type="email" placeholder="Your Email Address" required />
+          <textarea placeholder="Your Message" rows="4" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <p>📞 <strong>Phone:</strong> +91 xxxxxxxxxx</p>
+          <p>✉️ <strong>Email:</strong> timex.support@gmail.com</p>
+          <p>📍 <strong>Location:</strong> India</p>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
